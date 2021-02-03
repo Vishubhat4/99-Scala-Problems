@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f8c8c40-19bf-4f14-a59a-1d627d650720" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/* Problems/LastOfList.sc" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" afterPath="$PROJECT_DIR$/.bsp/sbt.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/99 scala problems.iml" afterPath="$PROJECT_DIR$/.idea/modules/99 scala problems.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/* Problems/PenultimateOfList.sc" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eea5f7a70156f3e25e16$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eea5f7a70156f3e25e16.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eea5f7a70156f3e25e16.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/.history3" afterPath="$PROJECT_DIR$/target/.history3" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LastOfList.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LastOfList.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/LastOfList.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PenultimateOfList.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/PenultimateOfList.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,6 +64,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/* Problems/LastOfList.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/* Problems/PenultimateOfList.sc" />
       </list>
     </option>
   </component>
@@ -116,6 +114,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99 Scala Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="99 Scala Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="* Problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,6 +342,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/PenultimateOfList.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
