@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f8c8c40-19bf-4f14-a59a-1d627d650720" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/** Problems/RandomSelect.sc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/* Problems/Lotto.sc" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/* Problems/Range.sc" afterPath="$PROJECT_DIR$/src/main/scala/* Problems/Range.sc" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/** Problems/Slice.sc" afterPath="$PROJECT_DIR$/src/main/scala/** Problems/Slice.sc" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc" afterPath="$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/** Problems/RandomSelect.sc" afterPath="$PROJECT_DIR$/src/main/scala/** Problems/RandomSelect.sc" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,21 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomSelect.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomSelect.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/** Problems/RandomSelect.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="162">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveAt.sc" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RemoveAt.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lotto.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/Lotto.sc">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -84,11 +94,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/** Problems/Drop.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/* Problems/Split.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/** Problems/Rotate.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/* Problems/InsertAt.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/** Problems/Slice.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/* Problems/Range.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/* Problems/Lotto.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/** Problems/RandomSelect.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc" />
       </list>
     </option>
   </component>
@@ -626,23 +637,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/Range.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <caret line="1" column="60" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/Lotto.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/** Problems/RandomSelect.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/* Problems/RemoveAt.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>

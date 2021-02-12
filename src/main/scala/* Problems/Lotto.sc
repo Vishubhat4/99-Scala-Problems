@@ -18,7 +18,11 @@ def randomSelect[A](k: Int, list: List[A]): List[A] = (k, list) match {
     randomEle :: randomSelect(k - 1, remList)
 }
 
-randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
-randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
-randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
-randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+def range(from: Int, to: Int): List[Int] =
+  if (from == to) to :: Nil else from :: range(from + 1, to)
+
+def lotto(n: Int, upto: Int): List[Int] = randomSelect(n, range(1, upto))
+
+lotto(6, 49)
+lotto(6, 49)
+lotto(6, 49)

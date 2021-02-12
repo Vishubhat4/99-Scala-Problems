@@ -1,10 +1,10 @@
-def removeAt(k: Int, list: List[Any]): (List[Any], Any) = {
-  def remover(acc: List[Any], k: Int, list: List[Any]): (List[Any], Any) = (k, list) match {
-    case (_, Nil) => (acc.reverse, None)
+def removeAt[A](k: Int, list: List[A]): (List[A], A) = {
+  def remover(acc: List[A], k: Int, list: List[A]): (List[A], A) = (k, list) match {
+    case (_, Nil) => throw new IndexOutOfBoundsException
     case (0, x :: xs) => (acc.reverse ++ xs, x)
     case (_, x :: xs) => remover(x :: acc, k - 1, xs)
   }
-  remover(List[Any](), k, list)
+  remover(List[A](), k, list)
 }
 
 removeAt(1, List('a, 'b, 'c, 'd))
