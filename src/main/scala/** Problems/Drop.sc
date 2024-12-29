@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p16
+
 def drop(n: Int, list: List[Any]): List[Any] = {
   def dropNth(hIndex: Int, list: List[Any])(implicit n: Int): List[Any] = (hIndex, list) match {
     case (_, Nil) => Nil

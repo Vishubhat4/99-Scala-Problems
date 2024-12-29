@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p01
+
 import java.util.NoSuchElementException
 
 def last[A](list: List[A]): A = list match {

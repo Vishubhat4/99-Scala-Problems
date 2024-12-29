@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p08
+
 def compress(list: List[Any]): List[Any] = {
   def compressHelper(prev: Any, list: List[Any]): List[Any] = (prev, list) match {
     case (_, Nil) => Nil

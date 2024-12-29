@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p19
+
 def rotate(n: Int, list: List[Any]): List[Any] = {
   def rotator(acc: List[Any], n: Int, list: List[Any]): List[Any] = n match {
     case 0 => list ++ acc.reverse

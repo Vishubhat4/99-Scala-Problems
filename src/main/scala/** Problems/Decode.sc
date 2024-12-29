@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p12
+
 def decode(list: List[(Int, Any)]): List[Any] = {
   def decodeHelper(acc: List[Any], list: List[(Int, Any)]): List[Any] = list match {
     case Nil => acc.reverse

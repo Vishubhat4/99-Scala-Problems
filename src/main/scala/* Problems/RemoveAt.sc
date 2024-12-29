@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p20
+
 def removeAt[A](k: Int, list: List[A]): (List[A], A) = {
   def remover(acc: List[A], k: Int, list: List[A]): (List[A], A) = (k, list) match {
     case (_, Nil) => throw new IndexOutOfBoundsException

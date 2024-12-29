@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p18
+
 def slice(from: Int, until: Int, list: List[Any]): List[Any] = (from, until) match {
   case (0, 0) => Nil
   case (0, t) => list.head :: slice(0, t - 1, list.tail)
