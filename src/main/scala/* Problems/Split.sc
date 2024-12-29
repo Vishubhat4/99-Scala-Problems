@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p17
+
 def split(splitLenght: Int, list: List[Any]): (List[Any], List[Any]) = {
   def splitter(acc: List[Any], hIndex: Int, list: List[Any]): (List[Any], List[Any]) = (hIndex, list) match {
     case (_, Nil) => (acc, Nil)

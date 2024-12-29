@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p13
+
 def encodeDirect(list: List[Any]): List[(Int, Any)] = {
   def encodeDirectHelper(acc: List[(Int, Any)], list: List[Any]): List[(Int, Any)] = list match {
     case Nil => acc.reverse

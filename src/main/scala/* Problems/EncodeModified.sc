@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p11
+
 def pack(list: List[Any]): List[List[Any]] = {
   def packHelper(prev: Any, acc: List[Any], list: List[Any]): List[List[Any]] = (prev, list) match {
     case (_, Nil) => List(acc)

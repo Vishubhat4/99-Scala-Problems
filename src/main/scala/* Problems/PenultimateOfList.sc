@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p02
+
 def penultimate[A](list: List[A]): A = list match {
   case Nil => throw new NoSuchElementException("penultimate(Nil)")
   case _ :: Nil => throw new NoSuchElementException("penultimate(List(x))")

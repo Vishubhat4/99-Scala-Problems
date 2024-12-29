@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p21
+
 def insertAt(ele: Any, k: Int, list: List[Any]): List[Any] = (k, list) match {
   case (_, Nil) => ele :: Nil
   case (0, _) => ele :: list

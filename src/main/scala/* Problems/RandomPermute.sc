@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p25
+
 import scala.util.Random
 
 def removeAt[A](k: Int, list: List[A]): (List[A], A) = {

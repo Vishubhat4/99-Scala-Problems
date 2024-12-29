@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p03
+
 def nth[A](n: Int, list: List[A]): A = n match {
   case 0 => if (list != Nil) list.head else throw new IndexOutOfBoundsException
   case _ => nth(n-1, list.tail)

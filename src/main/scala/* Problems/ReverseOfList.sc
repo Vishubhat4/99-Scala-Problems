@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p05
+
 def reverse[A](list: List[A]): List[A] =
   (list foldLeft List[A]())((rev, ele) => ele :: rev)
 

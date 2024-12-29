@@ -1,3 +1,6 @@
+
+// Question: https://aperiodic.net/pip/scala/s-99/#p07
+
 def flatten(list: List[Any]): List[Any] =
   (list foldLeft List[Any]())((acc, ele) => ele match {
     case Nil => acc
